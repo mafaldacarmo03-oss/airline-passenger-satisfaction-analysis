@@ -38,7 +38,6 @@ The repository includes an `install.R` script that automatically installs and lo
 - K-Means clustering
 - Hierarchical clustering
 - Gaussian Mixture Models (GMM)
-- Cluster validation (Silhouette, CH, DB, ARI)
 
 ### Supervised Learning
 - Linear Discriminant Analysis (LDA)
