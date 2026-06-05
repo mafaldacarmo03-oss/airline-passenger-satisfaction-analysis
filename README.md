@@ -12,7 +12,7 @@ This project aims to analyze a real dataset on airline passenger satisfaction us
 ## Dataset
 
 The dataset is publicly available on Kaggle:  
-https://www.kaggle.com/datasets/johndddddd/customer-satisfaction
+https://www.kaggle.com/datasets/mysarahmadbhat/airline-passenger-satisfaction
 
 A local copy of the dataset is included in the repository.
 
