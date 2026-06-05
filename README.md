@@ -76,8 +76,22 @@ A local copy of the dataset is included in the repository under `/data`.
 
 
 ## Results
-(Add key insights or best model performance here)
--copiar do pdf
+
+Some of the main results are summarized below. More detailed analyses can be found in the full report.
+
+- PCA proved useful for reducing dimensionality and mitigating multicollinearity among variables. Although it did not consistently improve predictive performance, it was particularly beneficial for clustering methods by providing a more stable and structured feature space.
+
+- Clustering methods were able to identify meaningful latent structures in the data; however, these clusters did not directly correspond to the satisfaction variable, which is expected given their unsupervised nature.
+
+- The supervised learning models achieved broadly similar performance in terms of accuracy. Logistic Regression stood out due to its strong balance between predictive performance and low computational cost, making it an efficient and robust model for this dataset.
+
+- Decision Trees provided an intuitive and interpretable structure, enabling clear identification of the most relevant variables influencing passenger satisfaction.
+
+- In contrast, K-Nearest Neighbors (KNN) showed higher sensitivity to dataset size and feature dimensionality, resulting in increased computational cost and variability in performance depending on the data representation.
+
+- Overall, the results indicate that passenger satisfaction is strongly influenced by factors related to in-flight service quality, digital convenience, onboard comfort, and overall travel experience.
+
+
 
 
 ## Authors
