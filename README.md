@@ -72,7 +72,14 @@ The performance of the models was evaluated using multiple metrics depending on 
 The dataset is publicly available on Kaggle:  
 https://www.kaggle.com/datasets/johndddddd/customer-satisfaction
 
-A local copy of the dataset is included in the repository under `/data`.
+A local copy of the dataset is included in the repository.
+
+
+## Implementation
+
+To reproduce this project, first install the required R packages.
+The file `install.R` is included in this repository and can be used to automatically install and load all necessary dependencies.
+
 
 ## Results
 
