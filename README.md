@@ -8,6 +8,21 @@ This project aims to analyze a real dataset on airline passenger satisfaction us
 - Discover hidden patterns using clustering methods
 - Build and evaluate predictive classification models
 
+
+## Dataset
+
+The dataset is publicly available on Kaggle:  
+https://www.kaggle.com/datasets/johndddddd/customer-satisfaction
+
+A local copy of the dataset is included in the repository.
+
+
+## Implementation
+
+To reproduce this project, first install the required R packages.
+The repository includes an `install.R` script that automatically installs and loads all required dependencies.
+
+
 ## Methods
 
 ### Exploratory Data Analysis (EDA)
@@ -51,35 +66,6 @@ The performance of the models was evaluated using multiple metrics depending on 
   - BIC (Gaussian Mixture Models)
   - Variance explained / Kaiser criterion / elbow method  (PCA)
 
-## Tools & Technologies
-
-- Programming Language: R
-- Development Environment: RStudio
-- Data Manipulation: dplyr, tidyr, tidyverse
-- Visualization: ggplot2, corrplot, rpart.plot
-- Machine Learning:
-  - Classification: MASS (LDA/QDA), rpart (Decision Trees), caret (KNN), glm (Logistic Regression)
-  - Clustering: stats (kmeans, hclust), mclust (GMM), cluster, clusterCrit
-  - Dimensionality Reduction: stats (PCA - prcomp)
-- Evaluation Metrics:
-  - Accuracy, Confusion Matrix
-  - ROC Curve (pROC)
-  - Adjusted Rand Index (mclust)
-  - Silhouette, Davies-Bouldin, Calinski-Harabasz
-
-## Dataset
-
-The dataset is publicly available on Kaggle:  
-https://www.kaggle.com/datasets/johndddddd/customer-satisfaction
-
-A local copy of the dataset is included in the repository.
-
-
-## Implementation
-
-To reproduce this project, first install the required R packages.
-The file `install.R` is included in this repository and can be used to automatically install and load all necessary dependencies.
-
 
 ## Results
 
@@ -97,7 +83,21 @@ Some of the main results are summarized below. More detailed analyses can be fou
 
 - Overall, the results indicate that passenger satisfaction is strongly influenced by factors related to in-flight service quality, digital convenience, onboard comfort, and overall travel experience.
 
+## Tools & Technologies
 
+- Programming Language: R
+- Development Environment: RStudio
+- Data Manipulation: dplyr, tidyr, tidyverse
+- Visualization: ggplot2, corrplot, rpart.plot
+- Machine Learning:
+  - Classification: MASS (LDA/QDA), rpart (Decision Trees), caret (KNN), glm (Logistic Regression)
+  - Clustering: stats (kmeans, hclust), mclust (GMM), cluster, clusterCrit
+  - Dimensionality Reduction: stats (PCA - prcomp)
+- Evaluation Metrics:
+  - Accuracy, Confusion Matrix
+  - ROC Curve (pROC)
+  - Adjusted Rand Index (mclust)
+  - Silhouette, Davies-Bouldin, Calinski-Harabasz
 
 
 ## Authors
