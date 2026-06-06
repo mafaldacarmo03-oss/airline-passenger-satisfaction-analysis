@@ -68,7 +68,7 @@ The performance of the models was evaluated using multiple metrics depending on 
 
 ## Results
 
-Some of the main results are summarized below. More detailed analyses can be found in the full report.
+Some of the main results are summarized below. More detailed analyses can be found in the full report (written in portuguese):
 
 - PCA proved useful for reducing dimensionality and mitigating multicollinearity among variables. Although it did not consistently improve predictive performance, it was particularly beneficial for clustering methods by providing a more stable and structured feature space.
 
@@ -104,4 +104,13 @@ Some of the main results are summarized below. More detailed analyses can be fou
 Ana Mafalda Araújo do Carmo
 
 Rafaela Afonso Claro Pinto
+
+
+## Academic Context
+
+Statistical Data Mining Methods
+
+Faculty of Sciences – University of Porto
+
+Academic Year 2025/2026
 
